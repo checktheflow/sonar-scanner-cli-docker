@@ -7,7 +7,7 @@ Example Usage
 -------------
 
 ```bash
-docker run -it -v $PWD:/analyse -w /analyse checktheflow/sonar-scanner sonar-scanner [PARAMS](https://docs.sonarqube.org/display/SCAN/Analyzing+with+SonarQube+Scanner)
+docker run -it -v $PWD:/analyse -w /analyse checktheflow/sonar-scanner sonar-scanner [PARAMS]
 ```
 
 Links
