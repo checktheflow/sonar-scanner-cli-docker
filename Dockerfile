@@ -10,5 +10,6 @@ RUN unzip /tmp/${SONAR_SCANNER_FILE}.zip -d /usr/local/sonar-scanner
 RUN rm /tmp/${SONAR_SCANNER_FILE}.zip
 
 RUN ln -s /usr/local/sonar-scanner/sonar-scanner-3.0.3.778/bin/sonar-scanner /usr/bin/sonar-scanner
+RUN ln -s /usr/local/sonar-scanner/sonar-scanner-3.0.3.778/bin/sonar-scanner-debug /usr/bin/sonar-scanner-debug
 
 RUN apt-get remove --purge wget --assume-yes
